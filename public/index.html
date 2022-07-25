@@ -1,13 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Use BOOTSTRAP</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Cities in the world</a>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active disabled" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" width="100%" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner"  width="100%">
+                <div class="carousel-item active">
+                    <img src="https://cdn2.civitatis.com/republica-checa/praga/guia/praga.jpg"
+                        class="d-block w-100" height="400px" width="100%" alt="...">
+                </div>
+                <div class="carousel-item ">
+                    <img src="https://as1.ftcdn.net/v2/jpg/02/10/76/48/1000_F_210764851_rgrSRAscm8rDEfyUSOExttbsB1M0kJSR.jpg"
+                        class="d-block w-100" height="400px" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/t/o/top-10-rome_banner_1.jpg"
+                        class="d-block w-100" height="400px" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <section>
+            <div class="row">
+            
+              <div class="col">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                 <img src="https://www.mundoviajes.org/wp-content/uploads/luna-de-miel-en-praga.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title"> Praga, República Checa</h5>
+                   <p class="card-text">La edad de Praga es de 1100 años, solo imagine el impresionante patrimonio histórico.</p>
+                   <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div> 
+             </div> 
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                   <img src="https://www.mundoviajes.org/wp-content/uploads/Paris.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Paris, Francia</h5>
+                     <p class="card-text"> París es un lugar donde el romance y la historia juegan uno al lado del otro.</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div> 
+               </div> 
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                   <img src="https://www.mundoviajes.org/wp-content/uploads/Bergen-Noruega.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Bergen, Noruega</h5>
+                     <p class="card-text">Asombrosa belleza, rodeada por las Siete Montañas y muy cerca de algunos de los paisajes costeros más espectaculares del país.</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div> 
+               </div> 
+              </div>
+           </div>
+           <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                 <img src="https://www.mundoviajes.org/wp-content/uploads/Kyoto-Japo%CC%81n.jpg" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">Kyoto, Japón</h5>
+                   <p class="card-text">Una sensación del pasado impregna esta legendaria metrópoli japonesa, un viaje a Kioto te presentará cientos de años de historia y paisajes japoneses.</p>
+                   <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div> 
+             </div> 
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                   <img src="https://www.mundoviajes.org/wp-content/uploads/Hallstat-Austria.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Hallstatt, Austria</h5>
+                     <p class="card-text"> Belleza alpina de postal: donde las montañas cerradas de nieve dan a un lago de aguas nevadas perfectamente vírgenes.</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div> 
+               </div> 
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                   <img src="https://www.mundoviajes.org/wp-content/uploads/florencia-abril.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                     <h5 class="card-title">Florencia, Italia</h5>
+                     <p class="card-text">Florencia tiene la llama de la belleza italiana pura y sin adulterar.</p>
+                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div> 
+               </div> 
+              </div>
+           </div></div></div>
+        </section>
+        <p class="h2">Most popular restaurant</p>
+        <div class="d-flex justify-content-around">
+        <img width="200px" heigth="300px" src="https://topadventure.com/__export/1597076108843/sites/laverdad/img/2020/08/10/restaurante_noma.jpg_1361152822.jpg" class="rounded-circle" alt="...">
+        <img width="200px" heigth="300px" src="https://topadventure.com/__export/1597076851101/sites/laverdad/img/2020/08/10/restaurant-geranium.jpg_1361152822.jpg" class="rounded-circle" alt="...">
+        <img width="200px" heigth="300px" src="https://topadventure.com/__export/1597077493702/sites/laverdad/img/2020/08/10/restaurante_mugaritz.jpg_1361152822.jpg" class="rounded-circle" alt="...">
+        <img width="200px" heigth="300px" src="https://topadventure.com/__export/1597080096977/sites/laverdad/img/2020/08/10/restaurante_maido.jpg_1361152822.jpg" class="rounded-circle" alt="...">
+    </div></div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
