@@ -13,29 +13,33 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top text-bg-info">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <h1>Cities in the world</h1>
             </a>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active disabled" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
 
+                </ul>
+            </div>
         </div>
     </nav>
+
+
     <div id="carouselExampleIndicators" class="carousel slide" width="100%" data-bs-ride="true">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -72,43 +76,43 @@
     </div>
 
     <div class="row m-4 justify-content-center ">
-        <div class="col-3 mx-4">
+        <div class="col-3 ">
 
             <div class="col">
-                <h4>Ranking</h4>
+                <h4>Ranking-Most Visited</h4>
                 <div class="card text-bg-dark text-end mb-2">
                     <img src="https://elviajerofeliz.com/wp-content/uploads/2020/09/ciudad-del-cabo.jpg"
                         class="card-img" alt="...">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Ciudad del Cabo, Sudáfrica</h5>
                     </div>
                 </div>
                 <div class="card text-bg-dark text-end mb-2">
-                    <img src="https://elviajerofeliz.com/wp-content/uploads/2020/09/ciudad-del-cabo.jpg"
-                        class="card-img" alt="...">
+                    <img src="https://elviajerofeliz.com/wp-content/uploads/2020/09/Lisboa.jpg" class="card-img"
+                        alt="...">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Lisboa, Portugal</h5>
                     </div>
                 </div>
                 <div class="card text-bg-dark text-end mb-2">
-                    <img src="https://elviajerofeliz.com/wp-content/uploads/2020/09/ciudad-del-cabo.jpg"
+                    <img src="https://elviajerofeliz.com/wp-content/uploads/2019/09/ciudades-bonitas.jpg"
                         class="card-img" alt="...">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Ámsterdam, Países Bajos</h5>
                     </div>
                 </div>
                 <div class="card text-bg-dark text-end mb-2">
-                    <img src="https://elviajerofeliz.com/wp-content/uploads/2020/09/ciudad-del-cabo.jpg"
+                    <img src="https://elviajerofeliz.com/wp-content/uploads/2019/08/Ciudades-m%C3%A1s-bonitas-de-Europa.-Estambul.jpg"
                         class="card-img" alt="...">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Estambul, Turquía</h5>
                     </div>
                 </div>
                 <div class="card text-bg-dark text-end mb-2">
-                    <img src="https://elviajerofeliz.com/wp-content/uploads/2020/09/ciudad-del-cabo.jpg"
+                    <img src="https://elviajerofeliz.com/wp-content/uploads/2019/09/ciudades-bonitas-8.jpg"
                         class="card-img" alt="...">
                     <div class="card-img-overlay">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Viena, Austria</h5>
                     </div>
                 </div>
 
@@ -116,7 +120,7 @@
             </div>
         </div>
 
-        <div class="col-8 mx-4">
+        <div class="col-8">
             <div class="row">
                 <div class="col">
                     <div class="card h-100 text-end" style="width: 16rem;">
@@ -126,7 +130,7 @@
                             <h5 class="card-title"> Praga, República Checa</h5>
                             <p class="card-text">La edad de Praga es de 1100 años, solo imagine el impresionante
                                 patrimonio histórico.</p>
-                            <a href="#" class="btn btn-primary text-end">Go somewhere</a>
+                            <a href="#" class="btn btn-primary text-end">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -138,7 +142,7 @@
                             <h5 class="card-title">Paris, Francia</h5>
                             <p class="card-text"> París es un lugar donde el romance y la historia juegan uno al lado
                                 del otro.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +153,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Bergen, Noruega</h5>
                             <p class="card-text">Muy cerca de los paisajes costeros más espectaculares del país.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -163,7 +167,7 @@
                             <h5 class="card-title">Kyoto, Japón</h5>
                             <p class="card-text">Una sensación del pasado impregna esta legendaria metrópoli japonesa,
                                 un viaje a Kioto te presentará cientos de años de historia.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -175,7 +179,7 @@
                             <h5 class="card-title">Hallstatt, Austria</h5>
                             <p class="card-text"> Belleza alpina de postal: donde las montañas cerradas de nieve dan a
                                 un lago de aguas nevadas perfectamente vírgenes.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -187,7 +191,7 @@
                             <h5 class="card-title">Hallstatt, Austria</h5>
                             <p class="card-text"> Belleza alpina de postal: donde las montañas cerradas de nieve dan a
                                 un lago de aguas nevadas perfectamente vírgenes.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <a href="#" class="btn btn-primary">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -198,60 +202,61 @@
 
     <div class="container">
         <p class="h2 text-center mb-5">Most popular restaurant</p>
-            <div class="row ">
+        <div class="row ">
             <div class="col">
-              <div class="card border-0 text-center">
-                <img 
-                src="https://topadventure.com/__export/1597076851101/sites/laverdad/img/2020/08/10/restaurant-geranium.jpg_1361152822.jpg"
-                class="rounded-circle h-auto w-75 align-self-center" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                 
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card border-0 text-center">
-                <img 
-                src="https://topadventure.com/__export/1597077493702/sites/laverdad/img/2020/08/10/restaurante_mugaritz.jpg_1361152822.jpg"
-                class="rounded-circle h-auto w-75 align-self-center" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                 
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card border-0 text-center">
-                <img 
-                src="https://topadventure.com/__export/1597080096977/sites/laverdad/img/2020/08/10/restaurante_maido.jpg_1361152822.jpg"
-                class="rounded-circle  h-auto w-75 align-self-center" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                 
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card border-0 text-center">
-                <img 
-                src="https://topadventure.com/__export/1597076851101/sites/laverdad/img/2020/08/10/restaurant-geranium.jpg_1361152822.jpg"
-                class="rounded-circle  h-auto w-75 align-self-center" alt="...">
+                <div class="card border-0 text-center">
+                    <img src="https://topadventure.com/__export/1597076851101/sites/laverdad/img/2020/08/10/restaurant-geranium.jpg_1361152822.jpg"
+                        class="rounded-circle h-auto w-75 align-self-center" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Geranium, Dinamarca</h5>
 
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                 
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div class="card-body mt-5">
-            <blockquote class="blockquote mb-0">              
-              <footer class="blockquote-footer">2021 Company</footer>
+            <div class="col">
+                <div class="card border-0 text-center">
+                    <img src="https://topadventure.com/__export/1597077493702/sites/laverdad/img/2020/08/10/restaurante_mugaritz.jpg_1361152822.jpg"
+                        class="rounded-circle h-auto w-75 align-self-center" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mugaritz, España</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 text-center">
+                    <img src="https://topadventure.com/__export/1597080096977/sites/laverdad/img/2020/08/10/restaurante_maido.jpg_1361152822.jpg"
+                        class="rounded-circle  h-100 w-75 align-self-center" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Maido, Perú</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 text-center">
+                    <img src="https://topadventure.com/__export/1597076108843/sites/laverdad/img/2020/08/10/restaurante_noma.jpg_1361152822.jpg"
+                        class="rounded-circle  h-auto w-75 align-self-center" alt="...">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Noma, Dinamarca</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-body mt-5">
+            <blockquote class="blockquote mb-0 d-flex">
+
+                <footer class="blockquote-footer">
+                    <img src="https://static.vecteezy.com/system/resources/previews/001/196/061/original/city-png.png"
+                        alt="" width="80" height="30" class="d-inline-block align-text-top">
+                    2021 Company
+                </footer>
             </blockquote>
-          </div> 
+        </div>
     </div>
-    
+
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
